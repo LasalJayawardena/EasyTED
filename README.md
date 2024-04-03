@@ -22,7 +22,7 @@ pip install easyted
 
 ### Calculating Full Tree Edit Distance
 ```python
-from easyted import TreeEditDistanceCalculator
+from easyted.ted import TreeEditDistanceCalculator
 
 # Initialize the calculator
 calculator = TreeEditDistanceCalculator()
@@ -34,7 +34,7 @@ print(f"Tree Edit Distance: {distance}")
 
 ### Calculating N Tree Edit Distance
 ```python
-from easyted import TreeEditDistanceCalculator
+from easyted.ted import TreeEditDistanceCalculator
 
 # Initialize the calculator
 calculator = TreeEditDistanceCalculator()
