@@ -46,8 +46,8 @@ print(f"Tree Edit Distance for first 3 layers: {distance}")
 # Calculate the tree edit distance between two sentences considering only the first 3 layers
 distance_first_3 = calculator.calculate_ted("This is a test.", "This is only a test.", 3)
 print(f"Tree Edit Distance (First 3 Layers): {distance_first_3}")
-Calculating Tree Edit Distance for the First 5 Layers
 ```
+
 
 ### Visualizing Constituency Trees
 ```python
